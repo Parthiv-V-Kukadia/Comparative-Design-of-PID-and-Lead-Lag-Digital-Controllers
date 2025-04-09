@@ -87,16 +87,19 @@ You can then open and further explore the generated Simulink models (`.slx` file
 
 The script outputs the following performance metrics for both the PID and Lead-Lag controllers:
 
-Performance Metrics Comparison:
+## Performance Metrics
 
-Metrics                    pid_values        leadlag_values
-_______                    __________        ______________
-Overshoot (%)               1.3444             1.3474
-Ramp Error (Simulation)     0.0077447          0.2672
-Settling Time (s)           0.92109            2.0997
-Rise Time (s)               0.56622            1.3899
-Peak Time (s)               1.19               2.97
-Peak Value                  1.0284             1.0406
-Phase Margin (deg)          68.324             72.486
-Gain Margin (dB)            26.37              40.752
+The following table summarizes the performance metrics obtained for both the PID and Lead-Lag controllers:
 
+| Metrics                   | PID Controller | Lead-Lag Compensator |
+|---------------------------|----------------|----------------------|
+| Overshoot (%)             | 1.3444         | 1.3474               |
+| Ramp Error (Simulation)   | 0.0077447      | 0.2672               |
+| Settling Time (s)         | 0.92109        | 2.0997               |
+| Rise Time (s)             | 0.56622        | 1.3899               |
+| Peak Time (s)             | 1.19           | 2.97                 |
+| Peak Value                | 1.0284         | 1.0406               |
+| Phase Margin (deg)        | 68.324         | 72.486               |
+| Gain Margin (dB)          | 26.37          | 40.752               |
+
+These metrics provide a quantitative comparison of the performance achieved by the two different controller designs for the given system. Analyze these values to understand the trade-offs between the PID and Lead-Lag controllers in terms of transient response (overshoot, settling time, rise time, peak time), steady-state error for a ramp input, and frequency domain stability margins (phase margin, gain margin).
