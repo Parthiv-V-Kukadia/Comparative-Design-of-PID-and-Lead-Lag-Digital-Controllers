@@ -89,8 +89,8 @@ The script outputs the following performance metrics for both the PID and Lead-L
 
 Performance Metrics Comparison:
 
-                           pid_values        leadlag_values
-                           __________        ______________
+Metrics                    pid_values        leadlag_values
+_______                    __________        ______________
 Overshoot (%)               1.3444             1.3474
 Ramp Error (Simulation)     0.0077447          0.2672
 Settling Time (s)           0.92109            2.0997
@@ -99,3 +99,4 @@ Peak Time (s)               1.19               2.97
 Peak Value                  1.0284             1.0406
 Phase Margin (deg)          68.324             72.486
 Gain Margin (dB)            26.37              40.752
+
