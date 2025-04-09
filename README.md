@@ -94,7 +94,7 @@ The following table summarizes the performance metrics obtained for both the PID
 | Metrics                   | PID Controller | Lead-Lag Compensator |
 |---------------------------|----------------|----------------------|
 | Overshoot (%)             | 1.3444         | 1.3474               |
-| Ramp Error (Simulation)   | 0.0077447      | 0.2672               |
+| Ramp Error                | 0.0077447      | 0.2672               |
 | Settling Time (s)         | 0.92109        | 2.0997               |
 | Rise Time (s)             | 0.56622        | 1.3899               |
 | Peak Time (s)             | 1.19           | 2.97                 |
